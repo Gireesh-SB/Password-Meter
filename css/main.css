@@ -1,0 +1,34 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.password{
+    width: 200px;
+    height: 25px;
+    padding: 2px;
+}
+.password-meter {
+    width: 208px;
+    height: 4px;
+    margin: 0px;
+    padding: 0px;
+    background: #e2e2e2;
+    clear:left;
+}
+
+.password-strength {
+    margin: 0;
+    padding: 0;
+    height: 4px;   
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}

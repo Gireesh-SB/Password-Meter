@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Password Meter</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+    <script src="js/password-meter.js"></script>
+</head>
+<body>
+    <p>Password should contain alphanumeric and symbols</p>
+    <div id="divPassword">
+        <input type="password" id="txtPassword" class="password left" placeholder="Enter Password" />
+        <div class="password-meter left">
+            <div class="password-strength"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#divPassword').PasswordMeter();
+        });
+    </script>
+</body>
+</html>
