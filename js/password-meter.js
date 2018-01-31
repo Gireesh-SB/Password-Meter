@@ -1,5 +1,5 @@
 ﻿(function ($, undefined) {
-    $.widget('ag.PasswordMeter', {
+    $.widget('ux.PasswordMeter', {
         vars: {
             passwordBoxId: '',
             strength: 0,
